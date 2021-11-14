@@ -17,6 +17,7 @@ text_content = text_file.read()
 # 1 - amount of lines in the text
 amount_of_lines = text_content.count('\n') + 1
 text_content = text_content.replace('\n', ' ')
+text_content = text_content.replace('', '')
 
 text_words = text_content.split(' ')
 remove_multiple_words(text_words, '')
@@ -58,13 +59,15 @@ popular_word_without_syntax = max(text_words,
 
 # 6 - longest sequence of words without the letter 'k'
 start_index = 0
+
 k_index = text_content.lower().find('k')
 space_index = 0
 len_of_text = len(text_content)
 list_seq_without_k = []
 while k_index != -1:
-    space_index = text_content.rfind(' ', start_index, k_index - 1)  # find the space before the word with the k
-    list_seq_without_k.append(text_content[start_index: space_index])  # save the sequence in list
+    space_index = text_content.rfind(' ', start_index, k_index)  # find the space before the word with the k
+    if space_index != -1:
+        list_seq_without_k.append(text_content[start_index: space_index])  # save the sequence in list
     start_index = text_content.find(' ', k_index + 1) + 1  # save the index for searching from him in the next time
     k_index = text_content.lower().find('k', start_index, len_of_text)  # searching the next appearance of k
 longest_seq = max(list_seq_without_k, key=lambda seq: len(seq.split(' ')))
