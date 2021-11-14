@@ -112,9 +112,11 @@ The average of sentence length: 45.55
 The maximal length of sentence: 190
 ------------------------------------
 Common word in the text: the
+
 Common word (not syntax word): he
 ------------------------------------
-The longest sequence of words without the letter k is:  with a large jaw and a queen with a fair face, on the throne of France.  In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever.  It was the year of Our Lord one thousand seven hundred and seventy-five.  Spiritual revelations were conceded to England at that favoured period, as at this.  Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster.  Even the
+The longest sequence of words without the letter k is:  
+with a large jaw and a queen with a fair face, on the throne of France.  In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever.  It was the year of Our Lord one thousand seven hundred and seventy-five.  Spiritual revelations were conceded to England at that favoured period, as at this.  Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster.  Even the
 ------------------------------------
 The highest number in the text:  1775
 ------------------------------------
