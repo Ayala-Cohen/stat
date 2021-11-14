@@ -1,4 +1,5 @@
 #input
+
 It was the best of times, it was the worst of times,
 it was the age of wisdom, it was the age of foolishness,
 it was the epoch of belief, it was the epoch of incredulity,
@@ -100,6 +101,7 @@ Greatnesses, and myriads of small creatures--the creatures of this
 chronicle among the rest--along the roads that lay before them.
 
 #output
+
 Number of lines in the text: 100
 ------------------------------------
 Number of words in the text: 1002
